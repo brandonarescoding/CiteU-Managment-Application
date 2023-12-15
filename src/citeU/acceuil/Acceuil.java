@@ -4,6 +4,8 @@
  */
 package citeU.acceuil;
 import  citeU.authentification.Connexion;
+
+
 /**
  *
  * @author brandoniscoding
@@ -90,7 +92,9 @@ public class Acceuil extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void AproposButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_AproposButtonActionPerformed
-        // TODO add your handling code here:
+        Apropos aproposWindow = new Apropos();
+        aproposWindow.createAndShowGUI();
+        dispose();
     }//GEN-LAST:event_AproposButtonActionPerformed
 
     private void ConnexionButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ConnexionButtonActionPerformed
